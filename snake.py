@@ -52,3 +52,10 @@ class Snake:
         if not self.has_turned and self.head.heading() != 0:
             self.head.setheading(180)
             self.has_turned = True
+
+    def restart(self):
+        for x in self.snake:
+            x.goto(1000,1000)
+        self.snake.clear()
+        self.create_snake()
+        self.head = self.snake[0]
