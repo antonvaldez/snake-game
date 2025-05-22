@@ -6,7 +6,7 @@ A simple snake game built with Python's turtle module.
 - Arrow keys to move the snake
 
 ## Features
-- Score tracking
+- Score and Highscore tracking
 - Random food colors and shapes
 - Border collision detection
 
